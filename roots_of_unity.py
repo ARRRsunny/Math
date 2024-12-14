@@ -3,7 +3,7 @@ from manim import *
 class RootsOfUnity(Scene):
     def construct(self):
         # Title
-        title = Text("Roots of Unity: Visualizing x^n = 1", font_size=36).to_edge(UP)
+        title = VGroup(Text("Roots of Unity: Visualizing ", font_size=36).to_edge(UP).shift(LEFT * 1.1),MathTex("x^n = 1").to_edge(UP).shift(RIGHT * 2.7))
         self.play(Write(title))
 
         # Axes (complex plane) shifted to the left
