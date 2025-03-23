@@ -1,5 +1,8 @@
 from manim import *
 
+'''
+This code is made to generating animation
+'''
 class RootsOfUnity(Scene):
     def construct(self):
         # Title
